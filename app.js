@@ -18,16 +18,20 @@ numberChange5.addEventListener('click', function(){
     numberChange4.textContent++
 })
 numberChange2.addEventListener('click', function(){
-    numberChange.textContent=2*2
+ let sum2 = +(numberChange.textContent)+2
+  numberChange.textContent =sum2
 })
 numberChange6.addEventListener('click', function(){
-    numberChange4.textContent=2*2
+   let  sum6 = +(numberChange4.textContent)+2
+       numberChange4.textContent =sum6
 })
 numberChange3.addEventListener('click', function(){
-    numberChange.textContent=+3
+  let sum3 =+  (numberChange.textContent)+3
+  numberChange.textContent = sum3
 })
 numberChange7.addEventListener('click', function(){
-    numberChange4.textContent=+3
+    let sum7 =+  (numberChange4.textContent)+3
+  numberChange4.textContent = sum7
 })
 
 
